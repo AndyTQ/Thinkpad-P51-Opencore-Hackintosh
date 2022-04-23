@@ -46,7 +46,7 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | COLOR CALIBRATOR | Internal | Nope  ❌ | Disabled via custom usb mapping |
 | EXPRESS CARD | Internal | Nope  ❌ | Will never work; disabled in UEFI setup. |
 | SD READER | Realtek RTS525A | Nope ❌ | There are drivers in progress, but they are to be not stable as per https://github.com/midi1996/P50-opencore-hackintosh |
-| Video Output| HDMI 1.4b and mini DP1.2a, or eGPU via TB3 | Partially working (will never fully work) ⚠️ | Since Nvidia is disabled, **HDMI and DP don't work** as they are directly connected to nvidia GPU. It's impossible to get video output directly via TB3 either. However, it is still possible to get external monitor by using an eGPU with AMD GPU, and use the method mentioned in https://github.com/AsahiKou/ThinkPadP51-Hackintosh-Catalina/issues/1. You will need to plug the eGPU to TB port BEFORE booting and add the `agdpmod=pikera` boot flag for some AMD GPUs.
+| Video Output| HDMI 1.4b and mini DP1.2a, or eGPU via TB3 | Partially working (will never fully work) ⚠️ | Since Nvidia is disabled, **HDMI and DP don't work** as they are directly connected to nvidia GPU. It's impossible to get video output directly via TB3 either. However, it is still possible to get external monitor by using an eGPU with AMD GPU, and use the method mentioned in https://github.com/AsahiKou/ThinkPadP51-Hackintosh-Catalina/issues/1. You will need to plug the eGPU to TB port BEFORE booting and add the `agdpmod=pikera` boot flag for some AMD GPUs. Keep in mind that this method would be very expensive.
 
 ## Issues that need help
 ### There are some problem with loading VoodooRMI via SMBUS on P51.** 
