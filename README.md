@@ -3,7 +3,7 @@
 
 Last updated: 2022.4.22
 
-**Disclaimer
+**Disclaimer:
 This guide is only for educational purpose. By following this guide, you agree to take full responsibility for any damage to your system and any other things that comes out from the guide.**
 
 ## Platform Specifications
