@@ -49,10 +49,14 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | Video Output| HDMI 1.4b and mini DP1.2a, or eGPU via TB3 | Partially working (will never fully work) ⚠️ | Since Nvidia is disabled, **HDMI and DP don't work** as they are directly connected to nvidia GPU. It's impossible to get video output directly via TB3 either. However, it is still possible to get external monitor by using an eGPU with AMD GPU, and use the method mentioned in https://github.com/AsahiKou/ThinkPadP51-Hackintosh-Catalina/issues/1. You will need to plug the eGPU to TB port BEFORE booting and add the `agdpmod=pikera` boot flag for some AMD GPUs.
 
 ## Issues that need help
-**There are some problem with loading VoodooRMI via SMBUS on P51.** Using the currently recommended method (https://github.com/VoodooSMBus/VoodooRMI/) to load Synaptics touchpad does not work on this machine. If I am only use VoodooPS2Controller to drive the trackpoint and trackpad, trackpad would not click by touching. 
+### There are some problem with loading VoodooRMI via SMBUS on P51.** 
 
-Therefore I used a very weird method after tons of trial and errors, which can make the trackpad's click action working via touching, as well as making 3-point gestures working, but overall feeling is still bad. (The method is: enable VoodooInput under VoodooPS2Controller, enable PS2 Keyboard/Trackpad, disable PS2 Mouse, disable VoodooInput under VoodooRMI, disable RMISMBus, Enable VoodooSMBus and VoodooRMI.) This is defeinitely not the way how VoodooRMI is set and I am still looking into how to get VoodooRMI working properly. I followed the readme file like five times from VoodooRMI and attempted multiple troubleshooting methods (add vendor and device to plist in the kext, custom smbus ssdt, double check the kext load order), and it does not work for me so far.
+- Using the currently recommended method (https://github.com/VoodooSMBus/VoodooRMI/) to load Synaptics touchpad does not work on this machine. If I am only use VoodooPS2Controller to drive the trackpoint and trackpad, trackpad would not click by touching. 
 
-For now, if you enable RMISMBus, Enable VoodoInput under VoodooRMI, and disable VoodooInput under VoodooPS2Controller (i.e., the correct way to setup RMI), trackpoint and trackpad will lose all controlls (keyboard will still work). 
+- Therefore I used a very weird method after tons of trial and errors, which can make the trackpad's click action working via touching, as well as making 3-point gestures working, but overall feeling is still bad. (The method is: enable VoodooInput under VoodooPS2Controller, enable PS2 Keyboard/Trackpad, disable PS2 Mouse, disable VoodooInput under VoodooRMI, disable RMISMBus, Enable VoodooSMBus and VoodooRMI.) 
 
-I am looking into the cause of this problem, and appreciate any possible assistance. Thanks!
+- This is defeinitely not the way how VoodooRMI is set and I am still looking into how to get VoodooRMI working properly. I followed the readme file like five times from VoodooRMI and attempted multiple troubleshooting methods (add vendor and device to plist in the kext, custom smbus ssdt, double check the kext load order), and it does not work for me so far.
+
+- For now, if you enable RMISMBus, Enable VoodoInput under VoodooRMI, and disable VoodooInput under VoodooPS2Controller (i.e., the correct way to setup RMI), trackpoint and trackpad will lose all controlls (keyboard will still work). 
+
+- I am looking into the cause of this problem, and appreciate any possible assistance. Thanks!
