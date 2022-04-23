@@ -28,7 +28,7 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | Touchpad | Synaptics | Partially working ⚠️  | See if it is possible to add more gestures |
 | Dock | | Untested ⚠️| Theoretically possible as per https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh |
 | 1xUSB C (Thunderbolt) | | Untested ⚠️ | Theoretically possible for eGPU output since it worked in 10.15 as per https://github.com/AsahiKou/ThinkPadP51-Hackintosh-Catalina/issues/1. Untested for other TB3 devices.|
-| BLUETOOTH | BCM94352Z | Nope, but work in progress ❌| There are some issues with Broadcome-related kexts in Monterey, but it is theoretically possible to coninue using BCM94352Z via BlueToolFixup. See https://github.com/acidanthera/BrcmPatchRAM |
+| BLUETOOTH | BCM94352Z | Nope, but work in progress ❌| There seem to be some issues with Broadcome-related kexts in Monterey, e.g., `BrcmBluetoothInjector.kext` causes freeze during installation process. But it is theoretically possible to coninue using BCM94352Z via BlueToolFixup. See https://github.com/acidanthera/BrcmPatchRAM |
 | FP READER | Internal | Nope  ❌| Disabled via custom usb mapping |
 | COLOR CALIBRATOR | Internal | Nope  ❌ | Disabled via custom usb mapping |
 | EXPRESS CARD | Internal | Nope  ❌ | Will never work; disabled in UEFI setup. |
