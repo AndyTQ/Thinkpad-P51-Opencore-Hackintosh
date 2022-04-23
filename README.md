@@ -1,7 +1,9 @@
 # Will upload relevant files in the future when I get things cleaned up.
 # Thinkpad-P51-Opencore-Hackintosh
 
-Last updated: 2022.4.22
+- Last updated: 2022.4.22
+- Current tested version: MacOS Monterey 12.3.1
+
 
 ## Platform Specifications
 https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec.PDF
