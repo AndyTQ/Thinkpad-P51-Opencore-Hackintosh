@@ -5,6 +5,7 @@
 - Current tested macOS version: **Monterey 12.3.1**
 - Current tested OpenCore version: **0.8.0**
 - Deeply appreciate the guide from https://github.com/midi1996/P50-opencore-hackintosh/ and Dortania, and the posts on /r/Hackintosh Reddit!
+- The EFI folder is modified to fit the specs below. It may **not work** on your machine, and make sure that you forllow Dortania's hackintosh guide if you wanna make your own EFI folder.
 
 ## Platform Specifications
 https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec.PDF
