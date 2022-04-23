@@ -4,7 +4,7 @@
 - Last updated: 2022.4.22
 - Current tested macOS version: **Monterey 12.3.1**
 - Current tested OpenCore version: **0.8.0**
-- Deeply appreciate the guide from https://github.com/midi1996/P50-opencore-hackintosh/ and Dortania.
+- Deeply appreciate the guide from https://github.com/midi1996/P50-opencore-hackintosh/ and Dortania, and the posts on /r/Hackintosh Reddit!
 
 ## Platform Specifications
 https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec.PDF
