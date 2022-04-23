@@ -9,14 +9,27 @@ This guide is only for educational purpose. By following this guide, you agree t
 ## Platform Specifications
 https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec.PDF
 
-## Tested Hardware
+## Tested Specs
+
+CPU: i7-7700HQ
+GPU: HD630
+RAM: 32GB DDR4 (4 * 8GB)
+Motherboard/Laptop Make and Model: Lenovo Thinkpad P51 20HH 
+Display: 2K @ 165Hz (panel#: N156KME-GNA). Originally the machine comes with a 4K screen.
+Audio Codec: ALC298 (ALC3268)
+Ethernet Card: Intel I219-V
+Wifi/BT Card: BCM94352Z
+Touchpad and touch display devices: Symaptics touchpad
+BIOS revision: 1.57
+
+## List of hardwares and their compatibilities
 | Category | Element | Compatibility | Notes |
 | ------------- | ------------- | ------------- | ------------- | 
 | CPU | i7-7700HQ | Working✅ | Power management works correctly.
 | GPU | HD630 | Working✅ | See additional comment #1. Need additional config in EFI\OC\config.plist.
 | | NVIDIA M1200 | Nope ❌ | Will never work as there are no driver support since MacOS 10.14. |
 | MEMORY | 1x16GB | Working✅ | |
-| DISPLAY | 1440P @ 165 | Working✅ | Requires a combination of `SwitchResX` and `RDM`. See additional comment #2.|
+| DISPLAY | 1440P @ 144Hz, scaled to "looks like" 1600x900 | Working✅ | Can't get to 165Hz due to limited pixelclock for HD630 (even with maximum pixelclock override). Requires a combination of `SwitchResX` and `RDM`. See additional comment #2.|
 | STORAGE | Samsung 970 Evo 1TB | Working✅| |
 | ETHERNET | Intel I219-V | Working✅ | |
 | WLAN | BCM94352Z | Working✅ |  |
