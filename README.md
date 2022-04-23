@@ -1,4 +1,3 @@
-# This read me file is work in progress
 # Thinkpad-P51-Opencore-Hackintosh
 
 Last updated: 2022.4.22
