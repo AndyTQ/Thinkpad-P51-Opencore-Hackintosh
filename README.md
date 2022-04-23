@@ -26,10 +26,10 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | Category | Element | Compatibility | Notes |
 | ------------- | ------------- | ------------- | ------------- | 
 | CPU | i7-7700HQ | Working✅ | Power management works correctly.
-| GPU | HD630 | Working✅ | See additional comment #1. Need additional config in EFI\OC\config.plist.
+| GPU | HD630 | Working✅ | Need additional config in EFI\OC\config.plist.
 | | NVIDIA M1200 | Nope ❌ | Will never work as there are no driver support since MacOS 10.14. |
 | MEMORY | 1x16GB | Working✅ | |
-| DISPLAY | 1440P @ 144Hz, scaled to "looks like" 1600x900 | Working✅ | Can't get to 165Hz due to limited pixelclock for HD630 (even with maximum pixelclock override). Requires a combination of `SwitchResX` and `RDM`. See additional comment #2.|
+| DISPLAY | 1440P @ 144Hz, scaled to "looks like" 1600x900 | Working✅ | Can't get to 165Hz due to limited pixelclock for HD630 (even with maximum pixelclock override). Requires a combination of `SwitchResX` and `RDM`. Requires additional config in EFI\OC\config.plist.|
 | STORAGE | Samsung 970 Evo 1TB | Working✅| |
 | ETHERNET | Intel I219-V | Working✅ | |
 | WLAN | BCM94352Z | Working✅ |  |
