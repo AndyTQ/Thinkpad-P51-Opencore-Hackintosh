@@ -39,7 +39,7 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | PORTS | 4xUSB3.1 Gen 1 (3.0) |  Working✅ | Requires custom USBMap.kext. See https://github.com/corpnewt/USBMap|
 | KEYBOARD | Non backlit keyboard | Working✅ | I don't have a backlit keyboard (used to have one but that got damaged by a bottle of water. the newly replaced one doesn't have backlight.) |
 | Trackpad | Synaptics | Partially working✅, need help⚠️| 3-finger gestures work. Gestures with 4+ fingers don't work. Overall the trackpad feels blocky. See section 'Issues that need help' |
-| Trackpoint | Synaptics | Partially working✅| Acceptable, scrolling will never have the same experience as in windows. See section 'Issues that need help' |
+| Trackpoint | Synaptics | Partially working✅, need help⚠️| Acceptable, scrolling will never have the same experience as in windows. See section 'Issues that need help' |
 | Dock | | Untested ❓| Theoretically possible as per https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh |
 | 1xUSB C (Thunderbolt) | | Untested ❓| Theoretically possible for eGPU output since it worked in 10.15 as per https://github.com/AsahiKou/ThinkPadP51-Hackintosh-Catalina/issues/1. Untested for other TB3 devices.|
 | BLUETOOTH | BCM94352Z | Nope, but work in progress ❎| There seem to be some issues with Broadcome-related kexts in Monterey, e.g., `BrcmBluetoothInjector.kext` causes freeze during installation process. But it is theoretically possible to coninue using BCM94352Z via BlueToolFixup. See https://github.com/acidanthera/BrcmPatchRAM |
