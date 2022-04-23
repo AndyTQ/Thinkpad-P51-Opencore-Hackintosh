@@ -11,16 +11,16 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 
 ## Tested Specs
 
-CPU: i7-7700HQ
-GPU: HD630
-RAM: 32GB DDR4 (4 * 8GB)
-Motherboard/Laptop Make and Model: Lenovo Thinkpad P51 20HH 
-Display: 2K @ 165Hz (panel#: N156KME-GNA). Originally the machine comes with a 4K screen.
-Audio Codec: ALC298 (ALC3268)
-Ethernet Card: Intel I219-V
-Wifi/BT Card: BCM94352Z
-Touchpad and touch display devices: Symaptics touchpad
-BIOS revision: 1.57
+- CPU: i7-7700HQ
+- GPU: HD630
+- RAM: 32GB DDR4 (4 * 8GB)
+- Motherboard/Laptop Make and Model: Lenovo Thinkpad P51 20HH 
+- Display: 2K @ 165Hz (panel#: N156KME-GNA). Originally the machine comes with a 4K screen.
+- Audio Codec: ALC298 (ALC3268)
+- Ethernet Card: Intel I219-V
+- Wifi/BT Card: BCM94352Z
+- Touchpad and touch display devices: Symaptics touchpad
+- BIOS revision: 1.57
 
 ## List of hardwares and their compatibilities
 | Category | Element | Compatibility | Notes |
