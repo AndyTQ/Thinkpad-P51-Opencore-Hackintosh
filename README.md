@@ -36,8 +36,8 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | AUDIO | ALC3268 | Working✅ | AppleALC.kect + Layout #3 as per https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#finding-your-layout-id|
 | PORTS | 4xUSB3.1 Gen 1 (3.0) |  Working✅ | Requires custom USBMap.kext. See https://github.com/corpnewt/USBMap|
 | KEYBOARD | Non backlit keyboard | Working✅ | I don't have a backlit keyboard (used to have one but that got damaged by a bottle of water. the newly replaced one doesn't have backlight.) |
-| Trackpoint | Synaptics | Partially working ⚠️ | Thr |
-| Touchpad | Synaptics | Partially working ⚠️  | See if it is possible to add more gestures |
+| Trackpoint | Synaptics | Partially working ⚠️ | There are some problem with loading VoodooRMI via SMBUS on P51. So currently I am only using VoodooPS2Controller to drive the trackpoint and trackpad. |
+| Touchpad | Synaptics | Partially working ⚠️  | There are some problem with loading VoodooRMI via SMBUS on P51. So currently I am only using VoodooPS2Controller to drive the trackpoint and trackpad. |
 | Dock | | Untested ⚠️| Theoretically possible as per https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh |
 | 1xUSB C (Thunderbolt) | | Untested ⚠️ | Theoretically possible for eGPU output since it worked in 10.15 as per https://github.com/AsahiKou/ThinkPadP51-Hackintosh-Catalina/issues/1. Untested for other TB3 devices.|
 | BLUETOOTH | BCM94352Z | Nope, but work in progress ❌| There seem to be some issues with Broadcome-related kexts in Monterey, e.g., `BrcmBluetoothInjector.kext` causes freeze during installation process. But it is theoretically possible to coninue using BCM94352Z via BlueToolFixup. See https://github.com/acidanthera/BrcmPatchRAM |
