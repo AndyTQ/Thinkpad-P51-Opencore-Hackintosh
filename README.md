@@ -37,7 +37,7 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | AUDIO | ALC3268 | Working✅ | AppleALC.kect + Layout #3 as per https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#finding-your-layout-id|
 | PORTS | 4xUSB3.1 Gen 1 (3.0) |  Working✅ | Requires custom USBMap.kext. See https://github.com/corpnewt/USBMap|
 | KEYBOARD | Non backlit keyboard | Working✅ | I don't have a backlit keyboard (used to have one but that got damaged by a bottle of water. the newly replaced one doesn't have backlight.) |
-| Trackpad | Synaptics | Partially working✅, need help⚠️| 3-finger gestures work. Overall the trackpad feels blocky. See section 'Issues that need help' |
+| Trackpad | Synaptics | Partially working✅, need help⚠️| 3-finger gestures work. Gestures with 4+ fingers don't work. Overall the trackpad feels blocky. See section 'Issues that need help' |
 | Trackpoint | Synaptics | Partially working✅, need help⚠️| Acceptable, but not smooth. See section 'Issues that need help' |
 | Dock | | Untested ❓| Theoretically possible as per https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh |
 | 1xUSB C (Thunderbolt) | | Untested ❓| Theoretically possible for eGPU output since it worked in 10.15 as per https://github.com/AsahiKou/ThinkPadP51-Hackintosh-Catalina/issues/1. Untested for other TB3 devices.|
