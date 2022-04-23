@@ -1,4 +1,4 @@
-# ⚠️ Work in progress. Things might change rapidly and more descriptions are being added.
+# ⚠️ Initial work in progress. Things might change rapidly and more descriptions are being added.
 # Thinkpad-P51-Opencore-Hackintosh
 
 - Last updated: 2022.4.22
