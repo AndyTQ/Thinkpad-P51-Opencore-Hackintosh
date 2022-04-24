@@ -61,3 +61,5 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 - For now, if you enable RMISMBus, Enable VoodoInput under VoodooRMI, and disable VoodooInput under VoodooPS2Controller (i.e., the correct way to setup RMI), trackpoint and trackpad will lose all controlls (keyboard will still work). 
 
 - I am looking into the cause of this problem, and appreciate any possible assistance. Thanks!
+
+- 2022.04.23: Created issue at https://github.com/VoodooSMBus/VoodooRMI/issues/148
