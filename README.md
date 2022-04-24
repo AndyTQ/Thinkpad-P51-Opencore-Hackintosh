@@ -62,4 +62,4 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 
 - I am looking into the cause of this problem, and appreciate any possible assistance. Thanks!
 
-- 2022.04.23: Created issue at https://github.com/VoodooSMBus/VoodooRMI/issues/148
+- 2022.04.23: Created issue at https://github.com/VoodooSMBus/VoodooRMI/issues/149
