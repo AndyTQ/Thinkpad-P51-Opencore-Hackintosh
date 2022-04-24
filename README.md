@@ -16,7 +16,7 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 - GPU: HD630 (Max VRAM: 2GB)
 - RAM: 32GB DDR4 (4 * 8GB @ 2400Hz)
 - Motherboard/Laptop Make and Model: Lenovo Thinkpad P51 20HH 
-- Display: 2560 x 1440 @ 165Hz, scaled to 1600 x 900 @ HiDPI (panel#: N156KME-GNA). Originally the machine comes with a 4K screen. I swapped the screen out and replaced with one that has high refresh-rate. 
+- Display: 2560 x 1440 @ 165Hz, scaled to 1600 x 900 @ HiDPI & 144Hz (panel#: N156KME-GNA). Originally the machine comes with a 4K screen. I swapped the screen out and replaced with one that has high refresh-rate. 
 - Audio Codec: ALC298 (ALC3268)
 - Ethernet Card: Intel I219-V
 - Wifi/BT Card: BCM94352Z
