@@ -48,11 +48,3 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | COLOR CALIBRATOR | Internal | Nope  ❌ | Disabled via custom usb mapping. I don't use them anyway |
 | EXPRESS CARD | Internal | Nope  ❌ | Will never work; disabled in UEFI setup. I don't use them anyway |
 | SD READER | Realtek RTS525A | Nope ❌ | There are drivers in progress, but they are to be not stable as per https://github.com/midi1996/P50-opencore-hackintosh. I don't use them anyway|
-
-## Issues that need help
-### There are some problem with loading VoodooRMI via SMBUS on P51.** 
-
-- Using the currently recommended method (https://github.com/VoodooSMBus/VoodooRMI/) to load Synaptics touchpad does not work on this machine. If I am only use VoodooPS2Controller to drive the trackpoint and trackpad, trackpad would not click by touching. 
-- I am looking into the cause of this problem, and appreciate any possible assistance. Thanks!
-- 2022.04.23: Created issue at https://github.com/VoodooSMBus/VoodooRMI/issues/149
-- 2022.04.25: SOLVED. will update EFI next week.
