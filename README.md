@@ -34,7 +34,7 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | STORAGE | Samsung 970 Evo 1TB | Working✅| |
 | ETHERNET | Intel I219-V | Working✅ | |
 | WLAN | BCM94360CS2 | Working✅ |  |
-| BLUETOOTH | BCM94360CS2 | Working✅ | Need BluetoothFixup.kext for Monterey+. Airdrop somehow stopped working in Monterey. |
+| BLUETOOTH | BCM94360CS2 | Working✅ | Need BluetoothFixup.kext for Monterey+. Airdrop can only receive but cannot send somehow. |
 | CAMERA | Internal | Working✅ | Requires custom USBMap.kext. See https://github.com/corpnewt/USBMap |
 | AUDIO | ALC3268 | Working✅ | AppleALC.kect + Layout #3 as per https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#finding-your-layout-id|
 | PORTS | 4xUSB3.1 Gen 1 (3.0) |  Working✅ | Requires custom USBMap.kext. See https://github.com/corpnewt/USBMap|
