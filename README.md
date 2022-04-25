@@ -33,7 +33,8 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | DISPLAY | 1440P @ 144Hz, scaled to "looks like" 1600x900 | Working✅ | Can't get to 165Hz due to limited pixelclock for HD630 (even with maximum pixelclock override). Requires a combination of `SwitchResX` and `RDM`. Requires additional config in EFI\OC\config.plist. (more on that in the future) But 165 and 144Hz are kinda difficult to distinguish tho.|
 | STORAGE | Samsung 970 Evo 1TB | Working✅| |
 | ETHERNET | Intel I219-V | Working✅ | |
-| WLAN | BCM94352Z | Working✅ |  |
+| WLAN | BCM94360CS2 | Working✅ |  |
+| BLUETOOTH | BCM94360CS2 | Working✅ | Need BluetoothFixup.kext for Monterey+. Airdrop works. |
 | CAMERA | Internal | Working✅ | Requires custom USBMap.kext. See https://github.com/corpnewt/USBMap |
 | AUDIO | ALC3268 | Working✅ | AppleALC.kect + Layout #3 as per https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#finding-your-layout-id|
 | PORTS | 4xUSB3.1 Gen 1 (3.0) |  Working✅ | Requires custom USBMap.kext. See https://github.com/corpnewt/USBMap|
@@ -42,7 +43,6 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | Trackpoint | Synaptics | Working✅| Used the VoodooRMI kext, which is ported fromm the Linux RMI driver. More responsive and less buggy than using VoodooPS2Controller.kext! |
 | Dock | | Untested ❓| Theoretically possible as per https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh |
 | 1xUSB C (Thunderbolt) | | Untested ❓| Theoretically possible for eGPU output since it worked in 10.15 as per https://github.com/AsahiKou/ThinkPadP51-Hackintosh-Catalina/issues/1. Untested for other TB3 devices.|
-| BLUETOOTH | BCM94352Z | Nope, but work in progress ❎| There seem to be some issues with Broadcome-related kexts in Monterey, e.g., `BrcmBluetoothInjector.kext` causes freeze during installation process. But it is theoretically possible to coninue using BCM94352Z via BlueToolFixup. See https://github.com/acidanthera/BrcmPatchRAM |
 | FP READER | Internal | Nope  ❌| Disabled via custom usb mapping. I don't use them anyway |
 | COLOR CALIBRATOR | Internal | Nope  ❌ | Disabled via custom usb mapping. I don't use them anyway |
 | EXPRESS CARD | Internal | Nope  ❌ | Will never work; disabled in UEFI setup. I don't use them anyway |
