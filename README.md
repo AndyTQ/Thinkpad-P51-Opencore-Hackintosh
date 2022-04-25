@@ -30,7 +30,7 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | GPU | HD630 | Working✅ | Need additional config in EFI\OC\config.plist. (more on that in the future)
 | | NVIDIA M1200 | Nope ❌ | Will never work as there are no driver support since MacOS 10.14. |
 | MEMORY | 1x16GB | Working✅ | |
-| DISPLAY | 1440P @ 144Hz, scaled to "looks like" 1600x900 | Working✅ | Can't get to 165Hz due to limited pixelclock for HD630 (even with maximum pixelclock override). Requires a combination of `SwitchResX` and `RDM`. Requires additional config in EFI\OC\config.plist. (more on that in the future)|
+| DISPLAY | 1440P @ 144Hz, scaled to "looks like" 1600x900 | Working✅ | Can't get to 165Hz due to limited pixelclock for HD630 (even with maximum pixelclock override). Requires a combination of `SwitchResX` and `RDM`. Requires additional config in EFI\OC\config.plist. (more on that in the future) But 165 and 144Hz are kinda difficult to distinguish tho.|
 | STORAGE | Samsung 970 Evo 1TB | Working✅| |
 | ETHERNET | Intel I219-V | Working✅ | |
 | WLAN | BCM94352Z | Working✅ |  |
