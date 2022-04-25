@@ -53,13 +53,6 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 ### There are some problem with loading VoodooRMI via SMBUS on P51.** 
 
 - Using the currently recommended method (https://github.com/VoodooSMBus/VoodooRMI/) to load Synaptics touchpad does not work on this machine. If I am only use VoodooPS2Controller to drive the trackpoint and trackpad, trackpad would not click by touching. 
-
-- Therefore I used a very weird method after tons of trial and errors, which can make the trackpad's click action working via touching, as well as making 3-point gestures working, but overall feeling is still bad. (The method is: enable VoodooInput under VoodooPS2Controller, enable PS2 Keyboard/Trackpad, disable PS2 Mouse, disable VoodooInput under VoodooRMI, disable RMISMBus, Enable VoodooSMBus and VoodooRMI.) 
-
-- This is defeinitely not the way how VoodooRMI is set and I am still looking into how to get VoodooRMI working properly. I followed the readme file like five times from VoodooRMI and attempted multiple troubleshooting methods (add vendor and device to plist in the kext, custom smbus ssdt, double check the kext load order), and it does not work for me so far.
-
-- For now, if you enable RMISMBus, Enable VoodoInput under VoodooRMI, and disable VoodooInput under VoodooPS2Controller (i.e., the correct way to setup RMI), trackpoint and trackpad will lose all controlls (keyboard will still work). 
-
 - I am looking into the cause of this problem, and appreciate any possible assistance. Thanks!
-
 - 2022.04.23: Created issue at https://github.com/VoodooSMBus/VoodooRMI/issues/149
+- 2022.04.25: SOLVED. will update EFI next week.
