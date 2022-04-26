@@ -45,6 +45,6 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | SD READER | Realtek RTS525A | In Progress ⚠️ | There are newer drivers now available and I will try them out. |
 | 1xUSB C (Thunderbolt) | | Partially working ⚠️| Impossible to hot plug. You need to plug in before booting to make it work. Theoretically possible for eGPU output since it worked in 10.15 as per https://github.com/AsahiKou/ThinkPadP51-Hackintosh-Catalina/issues/1. Untested for other TB3 devices.|
 | Dock | | Untested ❓| Theoretically possible as per https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh |
-| FP READER | Internal | Nope  ❌| Disabled via custom usb mapping. I don't use them anyway |
-| COLOR CALIBRATOR | Internal | Nope  ❌ | Disabled via custom usb mapping. I don't use them anyway |
+| FP READER | Internal | Nope  ❌| Disabled. I don't use them anyway |
+| COLOR CALIBRATOR | Internal | Nope  ❌ | Disabled. I don't use them anyway |
 | EXPRESS CARD | Internal | Nope  ❌ | Will never work; disabled in UEFI setup. I don't use them anyway | 
