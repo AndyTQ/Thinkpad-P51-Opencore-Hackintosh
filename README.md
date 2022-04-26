@@ -42,9 +42,9 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | Trackpad | Synaptics | Working✅| Used the VoodooRMI kext, which is ported fromm the Linux RMI driver. More responsive than using VoodooPS2Controller.kext! |
 | Trackpoint | Synaptics | Working✅| Used the VoodooRMI kext, which is ported fromm the Linux RMI driver. More responsive and less buggy than using VoodooPS2Controller.kext! |
 | Video Output| HDMI 1.4b and mini DP1.2a, or eGPU via TB3 | Partially working (will never fully work) ⚠️ | Since Nvidia is disabled, **HDMI and DP don't work** as they are directly connected to nvidia GPU. It's impossible to get video output directly via TB3 either. However, it is still possible to get external monitor by using an eGPU with AMD GPU, and use the method mentioned in https://github.com/AsahiKou/ThinkPadP51-Hackintosh-Catalina/issues/1. You will need to plug the eGPU to TB port BEFORE booting and add the `agdpmod=pikera` boot flag for some AMD GPUs. Keep in mind that this method would be very expensive.
+| SD READER | Realtek RTS525A | In Progress ⚠️ | There are newer drivers now available and I will try them out. |
 | Dock | | Untested ❓| Theoretically possible as per https://github.com/MirkoCovizzi/thinkpad-p51-hackintosh |
 | 1xUSB C (Thunderbolt) | | Untested ❓| Theoretically possible for eGPU output since it worked in 10.15 as per https://github.com/AsahiKou/ThinkPadP51-Hackintosh-Catalina/issues/1. Untested for other TB3 devices.|
 | FP READER | Internal | Nope  ❌| Disabled via custom usb mapping. I don't use them anyway |
 | COLOR CALIBRATOR | Internal | Nope  ❌ | Disabled via custom usb mapping. I don't use them anyway |
 | EXPRESS CARD | Internal | Nope  ❌ | Will never work; disabled in UEFI setup. I don't use them anyway |
-| SD READER | Realtek RTS525A | Nope ❌ | There are drivers in progress, but they are to be not stable as per https://github.com/midi1996/P50-opencore-hackintosh. I don't use them anyway|
