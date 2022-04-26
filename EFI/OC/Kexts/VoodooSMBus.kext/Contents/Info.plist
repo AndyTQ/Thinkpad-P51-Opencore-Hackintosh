@@ -54,7 +54,7 @@
 			<key>IOClass</key>
 			<string>VoodooSMBusControllerDriver</string>
 			<key>IOPCIMatch</key>
-			<string>0x9d238086 0xa1238086</string>
+			<string>0xa1238086</string>
 			<key>IOPCIClassMatch</key>
 			<string>0c050000&amp;0xffffff00</string>
 			<key>IOPCIMatchComment</key>
