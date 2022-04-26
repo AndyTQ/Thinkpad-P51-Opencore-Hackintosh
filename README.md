@@ -1,6 +1,6 @@
 # Thinkpad-P51-Opencore-Hackintosh
-
-- Last updated: 2022.4.22
+- 2022.4.25 Update #2: Fix VoodooRMI (for trackpad & trackpoint). Now trackpad and trackpoint are much smoother to use. Added Bluetooth Support
+- 2022.4.22 Update #1: Initial Upload
 - Current tested macOS version: **Monterey 12.3.1**
 - Current tested OpenCore version: **0.8.0**
 - Deeply appreciate the guide from https://github.com/midi1996/P50-opencore-hackintosh/ and Dortania, and the posts on /r/Hackintosh Reddit!
