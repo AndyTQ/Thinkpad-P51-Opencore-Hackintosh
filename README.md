@@ -33,7 +33,7 @@ https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec
 | DISPLAY | 1440P @ 144Hz, scaled to "looks like" 1600x900 | Working✅ | Can't get to 165Hz due to limited pixelclock for HD630 (even with maximum pixelclock override). Requires a combination of `SwitchResX` and `RDM`. Requires additional config in EFI\OC\config.plist. (more on that in the future) But 165 and 144Hz are kinda difficult to distinguish tho.|
 | STORAGE | Samsung 970 Evo 1TB | Working✅| |
 | ETHERNET | Intel I219-V | Working✅ | |
-| WLAN | DW1820A | Working✅; DW1820A needs pin masking, see the page here: https://www.mfpud.com/topics/985/ (it's in Chinese, you can use google translate). |  |
+| WLAN | DW1820A | Working✅ | DW1820A needs pin masking, see the page here: https://www.mfpud.com/topics/985/ (it's in Chinese, you can use google translate).  |
 | BLUETOOTH | DW1820A | Working✅ | Need BluetoothFixup.kext for Monterey+. Airdrop can only receive but cannot send somehow. Maybe it's an issue of my ipad not the wifi/bt card because the broadcom card also had this issue for my ipad. |
 | CAMERA | Internal | Working✅ | Requires custom USBMap.kext. See https://github.com/corpnewt/USBMap |
 | AUDIO | ALC3268 | Working✅ | AppleALC.kect + Layout #3 as per https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#finding-your-layout-id|
